@@ -115,7 +115,7 @@
 		--dimer-text: #747474;
 		*/
 	}
-
+	
 	/*Changed text highlight*/
 	::selection
 	{
@@ -187,6 +187,10 @@
 	{
 		display: none !important;
 	}
+	footer
+	{
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Jisho-DeepDark/master/Images/footer.png") !important;
+	}
 
 
 	/*Search*/
@@ -221,7 +225,7 @@
 		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
-	.filter.small.button.active, .filter.small.button:hover, form.search .search_type:hover, .button:hover
+	.filter.small.button.active, .filter.small.button:hover, form.search .search_type:hover, .button:hover, form.search .input_method_button:hover h4
 	{
 		color: var(--main-color) !important;
 	}
@@ -250,7 +254,7 @@
 		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
-	form.search .results .result:hover, form.search .results .result_label:hover
+	form.search .results .result:hover, form.search .results .result_label:hover, form.search .results .show_more:hover, form.search .results .show_less:hover
 	{
 		color: var(--main-color) !important;
 	}
@@ -286,8 +290,9 @@
 		color: var(--main-text) !important;
 	}
 
+
 	/*Search results*/
-	#main_results h4 .result_count, .concept_light-meanings .meaning-tags, .concept_light-meanings .meaning-abstract, .sense-tag.tag-restriction, .concept_light-meanings .meaning-definition-section_divider, .kanji_light .info
+	#main_results h4 .result_count, .concept_light-meanings .meaning-tags, .concept_light-meanings .meaning-abstract, .sense-tag.tag-restriction, .concept_light-meanings .meaning-definition-section_divider, .kanji_light .info, .concept_light-meanings .supplemental_info, .concept_light-meanings .sentences
 	{
 		color: var(--dimer-text) !important;
 	}
@@ -308,6 +313,18 @@
 		background-color: var(--hover-background) !important;
 		color: var(--main-color) !important;
 	}
+	.fact
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+		outline: none !important;
+	}
+	.fact li
+	{
+		text-align: center;
+	}
+
 	/*Links dropdown*/
 	.f-dropdown
 	{
@@ -331,6 +348,10 @@
 		color: var(--main-color) !important;
 	}
 
+	.kanji-details__main-readings-list a
+	{
+		border: none !important;
+	}
 
 	/*Kanji strokes*/
 	.stroke_order_diagram--current_path
@@ -340,6 +361,7 @@
 	.stroke_order_diagram--existing_path
 	{
 		stroke: var(--dimer-text) !important;
+		opacity: .6;
 	}
 	.stroke_order_diagram--path_start
 	{
@@ -427,6 +449,30 @@
 	.pagination span.disabled, .pagination a
 	{
 		border-color: var(--hover-background) !important;
+	}
+
+
+	/*Login*/
+	.reveal-modal, dialog
+	{
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.close-reveal-modal
+	{
+		color: var(--main-text) !important;
+	}
+	.close-reveal-modal:hover
+	{
+		color: var(--main-color) !important;
+	}
+	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+		box-shadow: none !important;
 	}
 
 }
