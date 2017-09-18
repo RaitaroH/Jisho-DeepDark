@@ -155,7 +155,7 @@
 	header.row, header.page
 	{
 		background-color: var(--main-background) !important;
-		border-color: var(--hover-background) !important;	
+		border-color: var(--hover-background) !important;
 	}
 
 
@@ -217,7 +217,7 @@
 	}
 	form.search .search_type
 	{
-		border-color: var(--hover-background) !important;	
+		border-color: var(--hover-background) !important;
 	}
 	.filter.small.button, .button
 	{
@@ -379,6 +379,37 @@
 	{
 		background: transparent !important;
 	}
+	.kanji_strokes.loaded, .kanji_strokes.activated .buttons, .kanji_strokes.show_actions .actions
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.kanji_strokes .actions .ok_button
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.kanji_strokes .actions .ok_button:hover
+	{
+		color: var(--main-color) !important;
+	}
+	.noUi-base, .noUi-origin
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		border-radius: 0 !important;
+	}
+	.noUi-background
+	{
+		background-color: var(--main-color) !important;
+	}
+	.noUi-handle
+	{
+		background-color: var(--main-color) !important;
+		border-color: var(--main-color) !important;
+	}
 
 	/*Dictionaries and such*/
 	.tabs dd.active a, .tabs .tab-title.active a, .tabs dd > a, .tabs .tab-title > a, table
@@ -444,6 +475,10 @@
 		border-color: var(--second-background) !important;
 		color: var(--main-text) !important;
 	}
+	label
+	{
+		color: var(--main-text) !important;
+	}
 
 
 	.pagination span.disabled, .pagination a
@@ -467,12 +502,71 @@
 	{
 		color: var(--main-color) !important;
 	}
-	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea
+	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], input[type="submit"], textarea
 	{
 		background-color: var(--second-background) !important;
-		border-color: var(--hover-background) !important;
+		border: 1px solid var(--hover-background) !important;
 		color: var(--main-text) !important;
 		box-shadow: none !important;
 	}
+	input[type="text"]:hover, input[type="password"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="week"]:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="submit"]:hover, textarea:hover, input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="submit"]:focus, textarea:focus, input[type="text"]:active, input[type="password"]:active, input[type="date"]:active, input[type="datetime"]:active, input[type="datetime-local"]:active, input[type="month"]:active, input[type="week"]:active, input[type="email"]:active, input[type="number"]:active, input[type="search"]:active, input[type="tel"]:active, input[type="time"]:active, input[type="url"]:active, input[type="color"]:active, input[type="submit"]:active, textarea:active
+	{
+		border-color: var(--main-color) !important;
+	}
+	/*Button hover*/
+	input[type="submit"]:hover
+	{
+		color: var(--main-color) !important;
+		border-color: var(--hover-background) !important;
+	}
+	form.search .keyword
+	{
+		border: none !important;
+	}
 
+	/*Sign up*/
+	.auth0-lock.auth0-lock .auth0-lock-tabs
+	{
+		background: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-tabs li.auth0-lock-tabs-current
+	{
+		box-shadow: none !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-header-bg, .auth0-lock.auth0-lock .auth0-lock-header, .auth0-lock.auth0-lock .auth0-lock-cred-pane
+	{
+		background: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-header-logo
+	{
+		filter: grayscale(100%) brightness(300%);
+	}
+	.auth0-lock.auth0-lock .auth0-lock-name
+	{
+		color: var(--main-text) !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-overlay
+	{
+		background: var(--hover-background) !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-input-wrap
+	{
+		background: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.auth0-lock.auth0-lock .auth0-lock-badge-bottom .auth0-lock-badge:hover svg g#LogoBadge
+	{
+		fill: var(--main-color) !important;
+	}
+	.auth0-lock-submit
+	{
+		background: var(--main-color) !important;
+		opacity: .9;
+	}
+	.auth0-lock-submit:hover
+	{
+		opacity: 1;
+	}
 }
