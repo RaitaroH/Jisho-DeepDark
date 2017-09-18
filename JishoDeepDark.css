@@ -379,7 +379,7 @@
 	{
 		background: transparent !important;
 	}
-	.kanji_strokes.loaded, .kanji_strokes.activated .buttons, .kanji_strokes.show_actions .actions
+	.kanji_strokes.show_actions .actions
 	{
 		background-color: var(--second-background) !important;
 		border-color: var(--hover-background) !important;
