@@ -35,5 +35,3 @@ The colors are available in the code; different colors can be used.
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Jisho-DeepDark/master/Images/VertexDark_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Jisho-DeepDark/master/Images/YouTube_Colors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Jisho-DeepDark/master/Images/9anime_Colors.png)
-
-
