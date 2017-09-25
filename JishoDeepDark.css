@@ -2,7 +2,7 @@
 	
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Jisho-DeepDark*/
   
-/*1.0.0*/
+/*1.0.1*/
 	
 	/*Main color variables*/
 	:root
@@ -323,6 +323,10 @@
 	.fact li
 	{
 		text-align: center;
+	}
+	.fact.grammar-breakdown h6
+	{
+		color: var(--dimer-text) !important;
 	}
 
 	/*Links dropdown*/
