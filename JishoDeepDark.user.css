@@ -494,6 +494,17 @@
 		background: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
+	
+	
+	/*Inflection table*/
+	table caption
+	{
+		color: var(--main-text) !important;
+	}
+	table tr th, table tr td
+	{
+		color: var(--dimer-text) !important;
+	}
 
 
 	/*Search results*/
