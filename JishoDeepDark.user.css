@@ -2,7 +2,7 @@
 @name Jisho DeepDark
 @namespace github.com/RaitaroH/Jisho-DeepDark
 @homepageURL https://github.com/RaitaroH/Jisho-DeepDark
-@version 1.0.5
+@version 1.0.6
 @updateURL https://rawgit.com/RaitaroH/Jisho-DeepDark/master/JishoDeepDark.user.css
 @description Learn japanese in the dark. May the dark be kinder on thine eyes. (jisho dark theme)
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.0.5*/
+/*1.0.6*/
 
 	/*Main color variables*/
 	:root
@@ -399,7 +399,7 @@
 
 
 	/*Search*/
-	form.search .input_method_button:hover, form.search .input_method_button:hover > .icon
+	form.search .input_method_button:hover, form.search .input_method_button:hover > .icon, form.search .search-form_clear-button
 	{
 		background-color: transparent !important;
 		fill: var(--main-color) !important;
