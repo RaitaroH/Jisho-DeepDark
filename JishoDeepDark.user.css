@@ -463,9 +463,9 @@
 	{
 		color: var(--main-color) !important;
 	}
-	form.search .input_methods
+	form.search .input_methods, form.search .scroll_indicator
 	{
-		background: var(--hover-background) !important;
+		background: transparent !important;
 	}
 
 	/*Radicals*/
