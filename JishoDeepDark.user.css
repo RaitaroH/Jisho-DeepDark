@@ -152,6 +152,8 @@
 	/*Main color variables*/
 	:root
 	{
+		/* Dark scrollbars */
+		color-scheme: dark;
 		/*User colors*/
 		--main-color: /*[[mainColor]]*/;
 		--main-background: /*[[mainBackground]]*/;
