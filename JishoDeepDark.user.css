@@ -2,7 +2,7 @@
 @name Jisho DeepDark
 @namespace github.com/RaitaroH/Jisho-DeepDark
 @homepageURL https://github.com/RaitaroH/Jisho-DeepDark
-@version 1.0.9
+@version 1.1.0
 @updateURL https://github.com/RaitaroH/Jisho-DeepDark/raw/master/JishoDeepDark.user.css
 @description Learn japanese in the dark. May the dark be kinder on thine eyes. (jisho dark theme)
 @author RaitaroH
@@ -145,7 +145,7 @@
 
 @-moz-document domain("jisho.org") {
 
-/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/Jisho-DeepDark*/
+/*Theme made by RaitaroH @https://github.com/RaitaroH/Jisho-DeepDark*/
 
 /*GNU General Public License v3.0*/
 
@@ -351,7 +351,8 @@
 		outline-color: var(--main-color) !important;
 	}
 
-	body, html
+	body, html,
+    [data-color-theme*="a"] body
 	{
 		background-color: var(--main-background) !important;
 		color: var(--dimmer-text) !important;
@@ -379,7 +380,7 @@
 	/*Logo*/
 	h1.logo a
 	{
-		background-image: url("https://gitlab.com/RaitaroH/Jisho-DeepDark/raw/master/Images/logo_katakana.png") !important;
+		background-image: url("https://github.com/RaitaroH/Jisho-DeepDark/raw/master/Images/logo_katakana.png") !important;
 	}
 
 
@@ -406,7 +407,7 @@
 	}
 	footer
 	{
-		background-image: url("https://gitlab.com/RaitaroH/Jisho-DeepDark/raw/master/Images/footer.png") !important;
+		background-image: url("https://github.com/RaitaroH/Jisho-DeepDark/raw/master/Images/footer.png") !important;
 	}
 
 
